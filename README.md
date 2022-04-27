@@ -1,2 +1,2 @@
 # Generic
-This contain random project
+This contain random project and meaningful content project
