@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "593992470331",
+    "project_id": "xuup-13be7",
+    "storage_bucket": "xuup-13be7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593992470331:android:458fe20d0bd12930b3b11e",
+        "android_client_info": {
+          "package_name": "com.example.xuup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBL_UlFbAQZXWUWUz8EUzPIPi9ckNTxxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
