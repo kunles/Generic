@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">xuup</string>
     <string name="display_text">Hello android xuup!</string>
-<string name="buttonText">Reverse Text</string>
+    <string name="buttonText">Generate</string>
     <string name="editText">Enter the description here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -22,8 +22,5 @@ class MainActivity : AppCompatActivity() {
             val nText = binding.textInput.text.toString()
             nText.reversed().also { binding.mainDisplayText.text = it }
         }
-        
-
-
     }
 }
