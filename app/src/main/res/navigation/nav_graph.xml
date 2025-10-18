@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/foodDisplayFragment">
+
+    <fragment
+        android:id="@+id/foodDisplayFragment"
+        android:name="com.example.xuup.FoodDisplayFragment"
+        android:label="fragment_food_display"
+        tools:layout="@layout/fragment_food_display">
+        <action
+            android:id="@+id/action_foodDisplayFragment_to_foodEntryFragment"
+            app:destination="@id/foodEntryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodEntryFragment"
+        android:name="com.example.xuup.FoodEntryFragment"
+        android:label="fragment_food_entry"
+        tools:layout="@layout/fragment_food_entry" >
+        <action
+            android:id="@+id/action_foodEntryFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.xuup.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail"/>
+
+
 
 </navigation>

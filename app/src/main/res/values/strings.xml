@@ -5,4 +5,8 @@
     <string name="editText">Enter the description here</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_image">Welcome Image</string>
+    <string name="next">Next</string>
+    <string name="next_no">NextOne</string>
+    <string name="welcomePage">Welcome to Xuup Restaurant</string>
 </resources>
